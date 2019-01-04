@@ -7,12 +7,9 @@ import com.tommall.dao.UserMapper;
 import com.tommall.pojo.User;
 import com.tommall.service.IUserService;
 import com.tommall.util.MD5Util;
-import net.sf.jsqlparser.schema.Server;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import sun.plugin.com.Utils;
-import sun.security.provider.MD5;
 
 import java.util.UUID;
 
